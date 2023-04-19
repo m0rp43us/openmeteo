@@ -3,6 +3,12 @@
 /// More dartdocs go here.
 library openmeteo;
 
-export 'src/openmeteo_base.dart';
+import 'src/openmeteo_base.dart';
+import 'package:http/http.dart' as http;
+import 'dart:async';
+import 'dart:convert';
+import 'dart:developer';
 
-// TODO: Export any libraries intended for clients of this package.
+void main() {
+  var ecwfOptions = Options().ecmwf({});
+}
